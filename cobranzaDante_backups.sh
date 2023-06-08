@@ -26,5 +26,5 @@ docker stop mongo_backup
 docker rm mongo_backup
 
 # Paso 5: Automatizar tarea
-#ej: cada 5 min
-# */5 * * * * /bin/bash /ruta/del/archivo/script.sh
+#ej: Todos los dias a las 23:00
+# 00 23 * * * /bin/bash /home/gtiseira/Dev/bash/cobranzaDante_backups.sh
